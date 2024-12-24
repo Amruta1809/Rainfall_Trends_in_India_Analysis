@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainfall Graphs</title>
+</head>
+<body>
+    <h1>Rainfall Graphs</h1>
+    <div>
+        <h2>Annual Rainfall Trend</h2>
+        {{ graphs[0]|safe }}
+    </div>
+    <div>
+        <h2>Average Monthly Rainfall</h2>
+        {{ graphs[1]|safe }}
+    </div>
+    <div>
+        <h2>Seasonal Rainfall Distribution</h2>
+        {{ graphs[2]|safe }}
+    </div>
+</body>
+</html>
